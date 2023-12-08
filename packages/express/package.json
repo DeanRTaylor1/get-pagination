@@ -1,12 +1,13 @@
 {
   "name": "@deanrtaylor/getpagination-express",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.1.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
-  "devDependencies": {
-    "typescript": "^5.3.3"
-  },
   "dependencies": {
-    "routing-controllers": "^0.10.4"
-  }
+    "@nestjs/common": "^10.2.10"
+  },
+  "files": [
+    "dist/**/*"
+  ]
 }

@@ -6,8 +6,9 @@ export interface Pagination {
   sort?: Array<SortItem>;
   search?: Record<string, string>;
 }
-type SortItem = { field: string; by: "ASC" | "DESC" };
-type SearchItem = `${string}:${string}`;
+
+export type SortItem = { field: string; by: "ASC" | "DESC" };
+export type SearchItem = `${string}:${string}`;
 
 export function GetPagination(options?: { required?: boolean }) {
   return createParamDecorator({
