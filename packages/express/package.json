@@ -1,0 +1,12 @@
+{
+  "name": "@deanrtaylor/getpagination-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "routing-controllers": "^0.10.4"
+  }
+}

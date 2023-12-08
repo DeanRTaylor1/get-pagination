@@ -1,0 +1,16 @@
+{
+  "name": "get-pagination",
+  "version": "1.0.0",
+  "description": "pagination decorators for express-oop",
+  "main": "index.js",
+  "author": "deanrtaylor1",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "typescript": "^5.3.3"
+  }
+}

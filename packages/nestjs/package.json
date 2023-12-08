@@ -1,0 +1,9 @@
+{
+  "name": "@deanrtaylor/getpagination-nestjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^10.2.10"
+  }
+}
